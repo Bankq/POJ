@@ -6,10 +6,9 @@ int main(){
   int p[25];//p stores input P-sequence
   int w[50];
   bool flag[50];//flag to mark if one parenthesis is matched
-  
+
   int t;//num of testcase
   cin >> t;
-
   while(t--){ // for each case
 	int loc = 0;//location pointer
 	int last = 0;//last input number
